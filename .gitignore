@@ -1,0 +1,65 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.env/
+.env.*
+.venv/
+
+# =========================
+# Scrapy
+# =========================
+.scrapy/
+*.log
+logs/
+jobdir/
+
+# =========================
+# Playwright
+# =========================
+.playwright/
+playwright-report/
+trace.zip
+
+# =========================
+# Crawling Outputs
+# =========================
+*.json
+*.jl
+*.csv
+*.xml
+
+# =========================
+# Databases / Local Storage
+# =========================
+*.db
+*.sqlite3
+data/
+storage/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Cache & Temp
+# =========================
+.cache/
+tmp/
